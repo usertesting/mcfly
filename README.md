@@ -180,6 +180,6 @@ McFly is free for usage with attribution; please contribute improvements via pul
 
 Pull requests should include motivating test cases and stick to the style demonstrated. Please don't make me deal with K & R style braces.
 
-McFly is based on some work by the inestimable Adam Milligan, expanded by Matt Edmonds and Joshua Marker.
+McFly is based on some work by the inestimable Adam Milligan, expanded by [Matt Edmonds](https://github.com/medmonds) and [Joshua Marker](https://github.com/tooluser).
 
 
