@@ -10,6 +10,8 @@ But testing things that are dependent on time passing means your tests sit and w
 ## Implementation Overview
 McFly is implemented as two categories: one on NSDate that overrides its canonical mechanism for time representation, another on NSObject that overrides the `performSelector…` methods, plus a utility class, `MFLTime` used to control the hands of the clock.
 
+## Usage
+Just include the `MFLTime.[h|m]` and the `MFLJRSwizzle.[h|m]` files in your project. It's kind of simple to warrant a framework, but if there's demand, I'll probably add it. 
 
 ## Usage Examples
 
@@ -142,7 +144,7 @@ When execution time comes, the events are invoked:
 ```
 
 ### Convenience Categories
-McFly includes a few other convenience categories, too, in addition to the ones described. For example, this one short-circuits animations.
+McFly works best with a few other convenience categories. For example, this one short-circuits animations.
 
 ```objective-c
 @implementation UIView (InstantaneousAnimation)
@@ -167,6 +169,8 @@ McFly includes a few other convenience categories, too, in addition to the ones 
 
 @end
 ```
+
+I'm unsure whether categories like this are in common usage; I can add them to McFly if people don't already have them. 
 
 ## Testing
 Of course McFly is tested, using Cedar. Just run the tests on the included app.
