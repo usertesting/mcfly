@@ -1,0 +1,13 @@
+.gitconfig
+*.xcuserstate
+*.xcuserdata
+userinterfacestate*
+breakpoints*
+xcuserdata/
+project.xcworkspace/
+*.xccheckout
+.DS_Store
+#.orig
+*~
+*.xcarchive
+build/
